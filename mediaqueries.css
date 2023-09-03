@@ -1,0 +1,275 @@
+@media screen and (max-width: 600px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  body {
+    background-color: rgb(32, 32, 32);
+  }
+
+  .btns-div {
+    opacity: 0;
+    pointer-events: none;
+    width: 80px;
+  }
+
+  .header-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 15vh;
+  }
+
+  .logo {
+    font-size: 30px;
+    flex: 1;
+    margin-left: 0px;
+    cursor: default;
+    color: gray;
+  }
+
+  .hamburger-menu {
+    opacity: 1;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ham-icon {
+    margin-top: 120px;
+    margin-left: 40px;
+  }
+
+  .menu-icons {
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    text-underline-offset: 15px;
+  }
+
+  .profile-pic-div {
+    margin-left: 220px;
+  }
+
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    right: -40px;
+    border: 2px solid white;
+    margin-bottom: 0px;
+  }
+
+  .intro-div {
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    padding-right: 0px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  #about {
+    height: 930px;
+  }
+
+  .about-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .photo-div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  .person-coding {
+    width: 250px;
+    z-index: 100;
+    border-radius: 30px;
+  }
+
+  .box-1,
+  .box-2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: -10;
+    border-radius: 30px;
+    background-color: rgba(245, 245, 245, 0.836);
+  }
+
+  .box-1 {
+    top: 40px;
+    right: 40px;
+    box-shadow: 5px 5px 50px grey;
+  }
+
+  .box-2 {
+    bottom: 40px;
+    left: 40px;
+    box-shadow: -5px -5px 50px grey;
+  }
+
+  .experience,
+  .education {
+    width: 150px;
+    height: 300px;
+    border: 2px solid white;
+    margin: 40px 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .experience-img {
+    width: 35px;
+  }
+
+  .img-box {
+    flex: 1;
+    padding: 0px 2px;
+  }
+
+  .languages {
+    display: grid;
+    flex: 1;
+    grid-template-columns: 1fr;
+  }
+
+  .lang-text-box {
+    flex: 3;
+    font-size: 12px;
+  }
+
+  .education-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    color: grey;
+  }
+
+  .checkmark {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .about-me {
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .about-me-text {
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  #projects {
+    height: 1650px;
+  }
+
+  .projects-bottom {
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+  }
+
+  .project-box {
+    height: 480px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .form-container {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 100px;
+    width: 200px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    row-gap: 20px;
+    border: 2px solid white;
+    padding: 50px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    right: 35px;
+    z-index: 100;
+    background-color: rgb(32, 32, 32);
+  }
+
+  .my-info {
+    width: 100%;
+    background-color: white;
+    height: 350px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .top {
+    color: transparent;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .bottom {
+    color: transparent;
+    padding-left: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .phone-img {
+    width: 0px;
+  }
+}
